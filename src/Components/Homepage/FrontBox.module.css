@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,600&display=swap');
+
+.backgroundBox{
+    text-align: center;
+}
+.frontText{
+    text-align: center ;
+    margin-top: 3cm;
+    margin-bottom: 3cm;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: x-large;
+    
+}
+
+.cartoon {
+    position: relative;
+    width: 300px; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+    margin: 0 auto; /* Center the sun container */
+    
+}
+
+.cartoon img{
+    width: 200px;
+    height: auto; 
+    background: transparent;
+    
+}
+
+
+
+
+
+
+
+.imageContainer {
+    position: relative; /* To position pseudo-elements relative to this container */
+    margin-top: 77px;
+
+  }
+
+
+
+
+
+
+
+
+  .lines{
+    position:absolute;
+  }
+
+  .lineHorizontal {
+    position:absolute;
+    top: -30px;
+    left: 30px;
+    transform: rotate(90deg);
+    border-color: rgb(242, 255, 99);
+    width:150px;
+  }
+  
+  .lineVertical {
+    position:absolute;
+    top: -20px;
+    left: 100px;
+    transform: translate(-150%)  rotate(45deg);
+    border-color: red;
+    width: 200px;
+  }
+  
+  .lineDiagonal1 {
+    position:absolute;
+    top: 90px;;
+    right: 300px;
+    transform: rotate(0deg);
+    border-color:blueviolet;
+    width:150px;
+  }
+  
+  .lineDiagonal2 {
+    position:absolute;
+    top: -95px;
+    left: 180px;
+    transform: translate(0, 0);
+    transform-origin: top right;
+    transform: rotate(-45deg);
+    border-color: chartreuse;
+    width:200px;
+  }
+  
+  .lineDiagonal3 {
+    position:absolute;
+    top:90px;
+    left: 200px;
+    transform: rotate(0deg);
+    border-color: rgb(255, 16, 255);
+    width: 270px;
+  }
+
+ 

@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  height:100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,217,102,1) 0%, rgba(0,212,255,1) 68%);
+  border-style: solid;
+  border-radius: 15px 50px 70px 5px;
+  padding: 0;
+  border-image: radial-gradient(circle at center, #6c3b3b 0%, #abf7ab 50%, #9595e1 100%) 20;
+  border-top: 70px solid #f2ecec; /* Set the desired border color and width */
+  border-left: 50px solid #f2ecec;
+  border-right: 50px solid #f2ecec;
+  
+
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
